@@ -5,10 +5,6 @@ Style/AccessModifierIndentation:
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#indent-public-private-protected'
   Enabled: true
 
-Style/AccessorMethodName:
-  Description: Check the naming of accessor methods for get_/set_.
-  Enabled: true
-
 Style/Alias:
   Description: 'Use alias_method instead of alias.'
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#alias-method'
@@ -34,11 +30,6 @@ Style/AlignParameters:
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-double-indent'
   Enabled: true
 
-Style/AndOr:
-  Description: 'Use &&/|| instead of and/or.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-and-or-or'
-  Enabled: true
-
 Style/ArrayJoin:
   Description: 'Use Array#join instead of Array#*.'
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#array-join'
@@ -59,11 +50,6 @@ Style/Attr:
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#attr'
   Enabled: true
 
-Style/BeginBlock:
-  Description: 'Avoid the use of BEGIN blocks.'
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-BEGIN-blocks'
-  Enabled: true
-
 Style/BarePercentLiterals:
   Description: 'Checks if usage of %() or %Q() matches configuration.'
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#percent-q-shorthand'
@@ -76,14 +62,6 @@ Style/BlockComments:
 
 Style/BlockEndNewline:
   Description: 'Put end statement of multiline block on its own line.'
-  Enabled: true
-
-Style/BlockDelimiters:
-  Description: >-
-                Avoid using {...} for multi-line blocks (multiline chaining is
-                always ugly).
-                Prefer {...} over do...end for single-line blocks.
-  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#single-line-blocks'
   Enabled: true
 
 Style/BracesAroundHashParameters:

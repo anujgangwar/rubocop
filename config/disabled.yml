@@ -69,3 +69,25 @@ Style/SymbolArray:
 Lint/LiteralInInterpolation:
   Description: 'Avoid interpolating literals in strings'
   AutoCorrect: false
+
+Style/AccessorMethodName:
+  Description: Check the naming of accessor methods for get_/set_.
+  Enabled: false
+
+Style/AndOr:
+  Description: 'Use &&/|| instead of and/or.'
+  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-and-or-or'
+  Enabled: false
+
+Style/BeginBlock:
+  Description: 'Avoid the use of BEGIN blocks.'
+  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-BEGIN-blocks'
+  Enabled: false
+
+Style/BlockDelimiters:
+  Description: >-
+                Avoid using {...} for multi-line blocks (multiline chaining is
+                always ugly).
+                Prefer {...} over do...end for single-line blocks.
+  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#single-line-blocks'
+  Enabled: false

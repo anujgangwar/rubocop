@@ -770,7 +770,7 @@ Style/VariableName:
     - camelCase
 
 Style/WhileUntilModifier:
-  MaxLineLength: 80
+  MaxLineLength: 120
 
 Style/WordArray:
   MinSize: 0
@@ -789,18 +789,18 @@ Metrics/BlockNesting:
 
 Metrics/ClassLength:
   CountComments: false  # count full line comments?
-  Max: 100
+  Max: 1000
 
 Metrics/ModuleLength:
   CountComments: false  # count full line comments?
-  Max: 100
+  Max: 1000
 
 # Avoid complex methods.
 Metrics/CyclomaticComplexity:
   Max: 6
 
 Metrics/LineLength:
-  Max: 80
+  Max: 120
   # To make it possible to copy or click on URIs in the code, we allow lines
   # contaning a URI to be longer than Max.
   AllowURI: true
@@ -810,7 +810,7 @@ Metrics/LineLength:
 
 Metrics/MethodLength:
   CountComments: false  # count full line comments?
-  Max: 10
+  Max: 15
 
 Metrics/ParameterLists:
   Max: 5
